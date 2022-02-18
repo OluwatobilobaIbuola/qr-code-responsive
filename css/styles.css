@@ -1,0 +1,72 @@
+:root{
+    --clr-primary-100: #fff;
+    --clr-primary-300: #D6E5FA;
+
+    --ff-primary: "Outfit", sans-serif;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p   {
+    margin: 0;
+}
+
+img,
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+h1,
+h2,
+h3  {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.text-center    {
+    text-align: center;
+}
+
+.border-radius  {
+    border-radius: 3%;
+}
+
+.container  {
+    padding: 0.7em;
+    margin-inline: auto;
+    width: min(98%, 23.4375em);
+    position: relative;
+    top: 6.5em;
+}
+
+.bg-light  {
+    background-color: var(--clr-primary-100);
+}
+
+.bg-dark    {
+    background-color: var(--clr-primary-300);
+}
+.text-clr   {
+    color: var(--clr-primary-300);
+}
+
+
+
